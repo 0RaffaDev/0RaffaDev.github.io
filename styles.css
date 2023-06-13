@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #663399;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  nav {
+    background-color: #663399;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #421f6d;
+  }
+  
+  /* Estilos de las secciones */
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #663399;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos de los testimonios */
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  blockquote {
+    font-style: italic;
+  }
+  
+  blockquote p {
+    margin-bottom: 5px;
+  }
+  
+  cite {
+    font-weight: bold;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #663399;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  
