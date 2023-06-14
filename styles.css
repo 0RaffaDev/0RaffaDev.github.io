@@ -140,7 +140,8 @@ body {
     border-bottom: black;
     -webkit-text-fill-color: black;
     scale: 1.2;
-
+    display: inline-block;
+    position: static;
   }
   
   
