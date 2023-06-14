@@ -3,19 +3,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1f1f1f;
-    color: #fff;
+    color: black;
+    
   }
   
   /* Estilos del encabezado */
   header {
-    background-color: #663399;
+    
     padding: 20px;
     text-align: center;
+    color: black;
   }
   h1 {
+
     font-size: 36px;
     margin: 0;
+    color:black;
+    -webkit-text-fill-color: black;
+  }
+  h2{
+    font-size: 36px;
+    margin: 0;
+    color:black;
+    -webkit-text-fill-color: black;
+    border-color: black;
   }
   
   p {
@@ -56,7 +67,7 @@ body {
   section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #663399;
+      
   }
   
   h2 {
@@ -110,4 +121,28 @@ body {
   footer p {
     margin: 0;
   }
+  .add{
+    background-color: rosybrown;
+    border-color: black;
 
+    
+  }
+  .add:hover{
+  background-color: rgb(191, 131, 131) ;
+  transform: scale(1.1);
+
+  }
+  
+  .menu{
+    background-color: #663399  ;
+    border: black;
+    border-bottom: black;
+    -webkit-text-fill-color: black;
+    scale: 1.2;
+
+  }
+  
+  
+
+    
+  
