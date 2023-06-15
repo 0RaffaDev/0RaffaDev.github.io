@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: black;
+    color: black; 
     
   }
   
@@ -12,10 +12,9 @@ body {
     
     padding: 20px;
     text-align: center;
-    color: black;
+    color: rosybrown;
   }
   h1 {
-
     font-size: 36px;
     margin: 0;
     color:black;
@@ -23,12 +22,12 @@ body {
   }
   h2{
     font-size: 36px;
-    margin: 0;
+    margin: 0;  
     color:black;
     -webkit-text-fill-color: black;
     border-color: black;
   }
-  
+
   p {
     font-size: 18px;
     margin: 0;
@@ -36,9 +35,13 @@ body {
   
   /* Estilos de la barra de navegación */
   nav {
-    background-color: #663399;
+    background-color: rosybrown;
     padding: 10px;
     text-align: center;
+
+    position: sticky;
+    top: 0;
+
   }
   
   nav ul {
@@ -60,7 +63,7 @@ body {
   }
   
   nav ul li a:hover {
-    background-color: #421f6d;
+    background-color: rgb(175, 118, 118) ;
   }
   
   /* Estilos de las secciones */
@@ -73,7 +76,11 @@ body {
   
   h2 {
     font-size: 24px;
-    color: #fff;
+    background-color: rosybrown;
+    text-decoration-color: black;
+    align-items: left;
+    text-decoration: double ;
+    color: black;
     margin-top: 0;
     margin-bottom: 10px;
   }
@@ -87,11 +94,21 @@ body {
   }
   
   /* Estilos de los testimonios */
-  .testimonial {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  .testimonial {  
+    margin: 0;
+    background: rosybrown;
+    padding: 10px 50px;
+    position: relative;
+    font-family: Georgia, serif;
+    color: #666;
+    border-radius: 5px;
+    font-style: italic;
+    text-shadow: 0 1px 0 black;
+    background-image: linear-gradient(rosybrown, pink);
+    -webkit-text-stroke-color: black;
+    text-align: justify;
   }
+
   
   .testimonial img {
     width: 60px;
@@ -100,8 +117,12 @@ body {
     margin-right: 10px;
   }
   
+  .testimonial img:hover{
+    transform: scale(1.1);
+  }
   blockquote {
     font-style: italic;
+    
   }
   
   blockquote p {
@@ -110,7 +131,20 @@ body {
   
   cite {
     font-weight: bold;
+    transform: scale(1.1  );
+    -webkit-text-fill-color: black;
   }
+ .names:hover{
+  transform: scale(1.2);
+  .names{
+    color: black  ;
+    -webkit-text-fill-color: black;
+  }
+  
+
+  
+
+ }
   
   /* Estilos del pie de página */
   footer {
@@ -135,11 +169,11 @@ body {
   }
   
   .menu{
-    background-color: #663399  ;
-    border: black;
-    border-bottom: black;
+    background-color:  rosybrown;
+    border: salmon;
+    border-bottom: rosybrown;
     -webkit-text-fill-color: black;
-    scale: 1.2;
+    scale: 1.1;
     display: inline-block;
     position: static;
   }
