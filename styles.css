@@ -12,16 +12,23 @@ body {
     
     padding: 20px;
     text-align: center;
-    color: rosybrown;
   }
   h1 {
-    font-size: 36px;
+    -webkit-text-fill-color: white;
+    text-decoration: overline red;
+    text-decoration: underline red;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
     margin: 0;
-    color:black;
-    -webkit-text-fill-color: black;
+    background-position: center;
+    font-weight: 800;
+    text-shadow:10px 8px rgb(29, 26, 26);
   }
+ 
+
   h2{
-    font-size: 36px;
+    font-size: 36px;  
     margin: 0;  
     color:black;
     -webkit-text-fill-color: black;
@@ -35,7 +42,7 @@ body {
   
   /* Estilos de la barra de navegación */
   nav {
-    background-color: rosybrown;
+    background-color: black;
     padding: 10px;
     text-align: center;
 
@@ -70,13 +77,16 @@ body {
   section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #663399
+    background-color: gray;
+    background-image: url(https://t4.ftcdn.net/jpg/05/81/59/61/360_F_581596130_SYR8NdzWPQuCiJHsxhDXVHT2M0AKRr9U.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
       
   }
   
   h2 {
-    font-size: 24px;
-    background-color: rosybrown;
+    font-size: 24px;  
     text-decoration-color: black;
     align-items: left;
     text-decoration: double ;
@@ -94,17 +104,16 @@ body {
   }
   
   /* Estilos de los testimonios */
-  .testimonial {  
+  .testimonial { 
     margin: 0;
-    background: rosybrown;
     padding: 10px 50px;
     position: relative;
     font-family: Georgia, serif;
-    color: #666;
+    color: black;
     border-radius: 5px;
     font-style: italic;
-    text-shadow: 0 1px 0 black;
-    background-image: linear-gradient(rosybrown, pink);
+    text-shadow: 0 1px 0 #000000;
+
     -webkit-text-stroke-color: black;
     text-align: justify;
   }
@@ -132,7 +141,8 @@ body {
   cite {
     font-weight: bold;
     transform: scale(1.1  );
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color:black;
+    
   }
  .names:hover{
   transform: scale(1.2);
@@ -148,7 +158,8 @@ body {
   
   /* Estilos del pie de página */
   footer {
-    background-color: #663399;
+    background-color: black;
+    color:white;
     padding: 10px;
     text-align: center;
   }
@@ -157,16 +168,58 @@ body {
     margin: 0;
   }
   .add{
-    background-color: rosybrown;
+    background-color: black;
     border-color: black;
+    color: white;
+    
+    
 
     
   }
   .add:hover{
-  background-color: rgb(191, 131, 131) ;
-  transform: scale(1.1);
+    background-color: red;
+    transform: scale(1.05);
+    transition: transform 300ms;
 
   }
+
+  .mbr{
+    background-color: black;
+    color: white;
+    border: black;
+    position: relative;
+    overflow: hidden;
+  }
+  .mbr::after{
+    content: "*NO DISPONIBLE*";
+
+    color: #fff;
+    background-color: #16456198;
+    position: absolute;
+    inset: 0; 
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition: transform 200ms;
+  }
+  .mbr:hover{
+    transform: scale(1.05);
+    transition: transform 300ms;
+  }
+
+  .mbr:hover::after{
+    transform: translateY(0);
+    
+  }
+
+
+  
+
+
+
+
+  
+
   
   .menu{
     background-color:  rosybrown;
